@@ -1,0 +1,188 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+#education {
+  background-image: url('images/education.jpg');
+}
+
+#about {
+  background-image: url('images/about.jpg');
+}
+
+#contact {
+  background-image: url('images/black.jpg');
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('images/coding.jpg');
+  background-size: cover;
+  color: #ffffff;
+  height: 400px;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron li {
+  margin: 30px;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #2a70e0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+.portrait {
+  width:  350px;
+  height: 300px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-bottom: 50px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+.footer {
+  margin-top: 60px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+h4.col-sm-1 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+div.col-sm-5 {
+  padding: 0;
+}
+
+.bar {
+  width: 46%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.left {
+  margin-right: 90px;
+}
+
+.skills {
+  padding: 10px 0 10px 30px;
+  color: white; /* White text color */
+}
+
+.html {width: 75%; background-color: #4CAF50;}
+.css {width: 45%; background-color: #2196F3;}
+.python {width: 60%; background-color: #808080;}
+.js {width: 70%; background-color: #f44336;}
+.java {width: 80%; background-color: #32a8a0;}
+.c {width: 40%; background-color: #f5f242;}
+
+.fa {
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+.fa:hover {
+  opacity: 0.75; 
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #9b6954;
+  color: white;
+}
+
+.fa-github {
+  background: #ebedd8;
+  color: black;
+}
